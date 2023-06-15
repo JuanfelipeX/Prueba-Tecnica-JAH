@@ -17,10 +17,10 @@ export class IniciarSesionService {
     this.URL_BASE = this.configuration.getUrlBase();
   }
 
+
   crearUser(data: any) {
     return this.http.post(this.URL_BASE + 'user', data);
   }
-
   obtenerUser() {
     return this.http.get<any>(this.URL_BASE + 'user');
   }
