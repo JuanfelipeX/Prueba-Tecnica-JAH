@@ -26,6 +26,6 @@ export class IniciarSesionService {
   }
 
   login(data: any) {
-    return this.http.post(this.URL_BASE + '/user/login', data);
+    return this.http.post(this.URL_BASE + 'user/login', data);
   }
 }
