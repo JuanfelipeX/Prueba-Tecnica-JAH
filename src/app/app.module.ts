@@ -9,7 +9,7 @@ import { ErrorNoEncontradoComponent } from './components/error-no-encontrado/err
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { TercerosComponent } from './components/terceros/terceros.component';
-import { UsuariosComponent } from './src/components/usuarios/usuarios.component';
+import { UsuariosComponent } from './components/usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
